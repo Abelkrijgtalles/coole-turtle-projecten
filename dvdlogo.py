@@ -17,6 +17,7 @@ window.setworldcoordinates(-MAX_X,-MAX_Y,MAX_X,MAX_Y)
 tina.left(initial_angle)
 tina.speed(speed)
 tina.pensize(10)
+tina.shape("turtle")
 
 def veranderkleur(nummer):
     kleuren = ["red", "orange", "yellow", "green", "blue", "purple", "black"]
